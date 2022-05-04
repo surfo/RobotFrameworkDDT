@@ -184,7 +184,7 @@ python.exe -m pip install --upgrade pip --trusted-host pypi.org --trusted-host f
 
 Descargar el proyecto completo
 
-`> git clone git@repo.redlink.com.ar:link/qa-automatizacion/processes_automation.git`
+`> git clone https://github.com/surfo/test_Batch.git`
 
 `> git checkout usr_git`
 
