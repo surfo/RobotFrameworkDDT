@@ -172,6 +172,14 @@ python --version
 python.exe -m pip install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org --user
 ```
 
+### Instalar Visual Studio Code
+
+1- Descargar el [Instalador del IDE](https://code.visualstudio.com/) acorde el SO
+
+2- Ejecutar el instalador que nos descargò.
+
+3- Instalar los complementos de Robot Framework Languaje Server y Robot Framework Intellisense
+
 
 
 Descargar el proyecto completo
