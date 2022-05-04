@@ -167,6 +167,10 @@ Quick Get A JSON Body Test
 ```sh
 python --version
 ```
+
+--- De no tener instalado Python 
+Descargar el instalador desde [text](https://www.python.org/downloads/)
+
 - De ser necesario actualizar el pip
 ```sh
 python.exe -m pip install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org --user
