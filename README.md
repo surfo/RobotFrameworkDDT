@@ -169,7 +169,7 @@ python --version
 ```
 
 --- De no tener instalado Python 
-Descargar el instalador desde [text](https://www.python.org/downloads/) variable de entorno
+Descargar el instalador desde [aqui](https://www.python.org/downloads/) variable de entorno
 
 
 .....python310/Scrips/
