@@ -169,7 +169,13 @@ python --version
 ```
 
 --- De no tener instalado Python 
-Descargar el instalador desde [text](https://www.python.org/downloads/)
+Descargar el instalador desde [text](https://www.python.org/downloads/) variable de entorno
+
+
+.....python310/Scrips/
+.....python310/
+
+Configurar
 
 - De ser necesario actualizar el pip
 ```sh
