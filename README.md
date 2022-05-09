@@ -168,16 +168,17 @@ Quick Get A JSON Body Test
 python --version
 ```
 
---- De no tener instalado Python 
+### En el caso de no tener instalado Python 
 Descargar el instalador desde [aqui](https://www.python.org/downloads/) 
 
-Configuro variable de entorno
+En el proceso de instalaciòn seleccionar la opciòn "Add Python 3.x to Path"
 
+De lo contrario hay que agregar las variables de entorno de manera manual
 
 .....python310/Scrips/
+
 .....python310/
 
-Configurar
 
 - De ser necesario actualizar el pip
 ```sh
