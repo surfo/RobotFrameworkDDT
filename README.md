@@ -191,7 +191,7 @@ python.exe -m pip install --upgrade pip --trusted-host pypi.org --trusted-host f
 
 2- Ejecutar el instalador que nos descargò.
 
-3- Instalar los complementos de Robot Framework Languaje Server y Robot Framework Intellisense
+3- Instalar los complementos de Robot Framework Languaje Server, Robot Framework Intellisense y Robot Code
 
 
 
