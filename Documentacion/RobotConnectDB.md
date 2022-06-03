@@ -22,8 +22,9 @@ connection:
 
 ### Uso del DatabaseLibrary
 
+```python
+*** Settings ***
 
-`*** Settings ***
 Documentation  Keywords basicos para uso de la libreria
 Library  DatabaseLibrary
 
@@ -38,9 +39,11 @@ Connecting
 
   log to console  @{queryResults}
 
+
 *** Keywords ***
 Connect
     connect to database using custom params  cx_Oracle  ${DB_CONNECT_STRING}
 
 Disconnect
-    disconnect from database`
+    disconnect from database
+```
