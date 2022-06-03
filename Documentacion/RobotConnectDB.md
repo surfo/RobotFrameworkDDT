@@ -1,10 +1,14 @@
 ## Instalar modulo DatabaseLibrary
 
+```console
 pip install robotframework-databaselibrary
+```
 
-##Instalar modulo de JayDeBeApi (Opcional)
+## Instalar modulo de JayDeBeApi (Opcional)
 
+```console
 pip install JayDeBeApi
+```
 
 Las ubicaciòn de las librerias puede ser Python\Lib\site-packages
 
@@ -16,7 +20,7 @@ connection:
 `
 
 
-Uso del DatabaseLibrary
+### Uso del DatabaseLibrary
 
 
 `*** Settings ***
