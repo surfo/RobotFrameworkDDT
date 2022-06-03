@@ -22,7 +22,7 @@ connection:
 
 ### Uso del DatabaseLibrary
 
-```python
+```robotframework
 *** Settings ***
 
 Documentation  Keywords basicos para uso de la libreria
