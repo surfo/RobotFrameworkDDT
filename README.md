@@ -306,9 +306,9 @@ Especificar donde alojar el reporte
 ```console
 robot -d results
 ```
-Correr Tags especificos
+Correr Tags especificos (-i included -e excluded)
 ```console
-robot -t tagsNombre
+robot -i tagsNombre
 ```
 
 ## Despliegue 📦
