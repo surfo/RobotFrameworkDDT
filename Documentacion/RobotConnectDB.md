@@ -1,4 +1,4 @@
-##Install DatabaseLibrary module by
+## Instalar modulo DatabaseLibrary
 
 pip install robotframework-databaselibrary
 
