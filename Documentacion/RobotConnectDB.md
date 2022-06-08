@@ -47,3 +47,16 @@ Connect
 Disconnect
     disconnect from database
 ```
+
+## Libreria Conexión remota de Python a la base de datos Oracle en el servidor
+
+Instalar cliente Oracle Basic Package
+[Ingresar](https://www.oracle.com/database/technologies/instant-client/downloads.html)
+
+```console
+pip install cx_Oracle --user
+```
+
+```console
+python -m pip install cx_Oracle --upgrade
+```
