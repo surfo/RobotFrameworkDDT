@@ -198,9 +198,10 @@ Buscar Robocorp y seleccionar
 * Robotcorp code
 
 Luego de instalar el plugin de Robot Framework Languaje ir a la seccion de Settins buscar los apartados 
-Robot > Python: Ejecutable(Executable)
-Robot > Languaje-server: Python
-Colocar el path del .exe de Python
+* Robot > Python: Ejecutable(Executable)
+* Robot > Languaje-server: Python
+
+Colocar en ambos el path del .exe de Python
 
 
 Descargar el proyecto completo
