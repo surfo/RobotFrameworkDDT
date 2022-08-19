@@ -191,8 +191,16 @@ python.exe -m pip install --upgrade pip --trusted-host pypi.org --trusted-host f
 
 2- Ejecutar el instalador que nos descargò.
 
-3- Instalar los complementos de Robot Framework Languaje Server, Robot Framework Intellisense y Robot Code
+3- Instalar los complementos de RobotFramework
 
+Buscar Robocorp y seleccionar 
+* Robot Framework Languaje Server 
+* Robotcorp code
+
+Luego de instalar el plugin de Robot Framework Languaje ir a la seccion de Settins buscar los apartados 
+Robot > Python: Ejecutable(Executable)
+Robot > Languaje-server: Python
+Colocar el path del .exe de Python
 
 
 Descargar el proyecto completo
