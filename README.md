@@ -204,7 +204,7 @@ Luego de instalar el plugin de Robot Framework Languaje ir a la seccion de Setti
 Colocar en ambos el path del .exe de Python
 
 
-Descargar el proyecto completo
+### Descargar el proyecto completo
 
 `> git clone https://github.com/surfo/test_Batch.git`
 
