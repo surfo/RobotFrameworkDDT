@@ -142,6 +142,8 @@ python -m pip install --trusted-host pypi.python.org --trusted-host files.python
 
 ### Ejemplo API
 
+
+```python
 *** Settings ***
 Library  RequestsLibrary
 
@@ -162,7 +164,7 @@ Quick Get A JSON Body Test
     
     Should Be Equal As Strings    1  ${response.json()}[id]
 
-
+```
 
 ## Comenzando 🚀
 
