@@ -141,8 +141,10 @@ python -m pip install --trusted-host pypi.python.org --trusted-host files.python
 ```
 
 ### Ejemplo API
+
 *** Settings ***
 Library  RequestsLibrary
+
 
 *** Test Cases ***
 
@@ -150,11 +152,14 @@ Library  RequestsLibrary
 Quick Get Request Test
     ${response}=    GET  https://www.google.com  verify=${False}
 
+
 Quick Get Request With Parameters Test
     ${response}=    GET  https://www.google.com/search   verify=${False}  params=query=ciao  expected_status=200
 
+
 Quick Get A JSON Body Test
     ${response}=    GET  https://jsonplaceholder.typicode.com/posts/1  verify=${False}
+    
     Should Be Equal As Strings    1  ${response.json()}[id]
 
 
