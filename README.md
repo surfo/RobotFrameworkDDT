@@ -205,6 +205,9 @@ Luego de instalar el plugin de Robot Framework Languaje ir a la seccion de Setti
 
 Colocar en ambos el path del .exe de Python
 
+Ejemplo: C:\Users\user_aaa\AppData\Local\Programs\Python\Python310\python.exe
+
+
 
 ### Descargar el proyecto completo
 
