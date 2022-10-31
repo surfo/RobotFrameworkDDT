@@ -1,0 +1,7 @@
+${username};${password};${salida};
+"";"";Error Login: Username es requerido;
+"";secret_sauce;Error Login: Username es requerido;
+standard_user;secret_se;Error Login: Username y password inexistente;
+locked_out_user;secret_sauce;Error Login: Usuario bloqueado;
+standard_us;secret_sauce;Error Login: Username y password inexistente;
+standard_us;secret_se;Epic sadface: Username y password inexistente;
