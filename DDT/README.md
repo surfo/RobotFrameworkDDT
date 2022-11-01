@@ -26,7 +26,7 @@ DataDriver crea múltiples casos de prueba basados ​​en una plantilla de pru
 pip install --upgrade robotframework-datadriver
 ```
 
-2. Cree un archivo de estructura para que podamos leerlo y comprenderlo fácilmente. En el contexto Data el csv que contiene los datos de entrada y salidas esperadas
+2. Crear un proyecto con estructura simple para que podamos leerlo y comprenderlo fácilmente. En el contexto Data el csv que contiene los datos de entrada y salidas esperadas
 
 ![Figura2](https://user-images.githubusercontent.com/55904664/199086121-ff2ee634-6021-47e6-bfcb-9e9e1b21703d.png)
 
@@ -46,7 +46,7 @@ standard_us;secret_se;Error Login: Username y password inexistente;
 
 4. Crear un archivo login.robot para definir variables para almacenar y definir keyworks.
 
-```python
+```sh
 *** Settings ***
 Library  DataDriver  ./Data/data.csv
 Test Template   Log desde xls
@@ -63,13 +63,13 @@ Log desde xls
     Log To Console  ${username} ${password} ${salida}
 ```
 
-4. Ejecute este comando en la Terminal y vea el resultado.
+4. Ejecutar este comando en la Terminal y vea el resultado.
 
 ```sh
 robot -d Result DDT/login.robot
 ```
 ### Reporte
-Es interesante que en el mismo nombre del test se usa los argumentos pasados desde el DataDriver que maneja la carga
+En la columna name del test se usa los argumentos pasados desde el DataDriver que maneja la carga, cada iteracion de la fila del input (csv o xls) es un test independiente.
 
 ![reporteRFDDT](https://user-images.githubusercontent.com/55904664/199089139-eedf4508-2bc5-4d37-97fa-4997afaeeeb1.png)
 
